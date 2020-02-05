@@ -14,7 +14,7 @@ cmd = input_data[0]
 objct = input_data[1::]
 
 
-def find_cmd(**kwargs):
+def find_cmd(**kwargs):     # Проверяет введённые данные и возвращает соотв. команду из commands.py
     for key, value in kwargs.items():
         if cmd in value:
             return key
