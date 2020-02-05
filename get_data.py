@@ -10,7 +10,7 @@ from commands import commands
 
 
 input_data = input('>').split(' ')
-cmd = input_data[0]
+cmd = input_data[0].lower()
 objct = input_data[1::]
 
 
@@ -22,4 +22,5 @@ def find_cmd(**kwargs):     # Проверяет введённые данные
             return f'Неизвестная команда: {cmd}'
 
 
-print(find_cmd(**commands))
+if __name__ == "__main__":
+    print(find_cmd(**commands))
