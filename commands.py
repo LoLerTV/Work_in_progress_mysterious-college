@@ -3,5 +3,6 @@ commands = {
     'give': ['взять', 'забрать'],
     'open': ['открыть'],
     'help': ['help'],
+    'drop': ['выкинуть', 'выложить','поставить'],
     'unknown command': 'none'
 }
