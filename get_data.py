@@ -5,7 +5,7 @@
 
 
 # ввод> идти домой
-# выввод: go - комаанда, ["домой"] - объект
+# выввод: go - команда, ["домой"] - объект
 
 from commands import commands
 
@@ -16,7 +16,7 @@ if __name__ == "__main__":
     objct = input_data[1::]
 
 
-    def find_cmd(**kwargs):     # Проверяет введённые данные и возвращает соотв. команду из commands.py
+    def find_cmd(**kwargs):     # Проверяет введённые данные и возвращает соотв. команду из commands.py 
         for key, value in kwargs.items():
             if cmd in value:
                 return key
