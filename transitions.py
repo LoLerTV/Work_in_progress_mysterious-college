@@ -12,5 +12,4 @@ transitions = {
 
 location = scheduling_room
 
-print(transitions[scheduling_room][0])
-print(transitions[scheduling_room][1])
+
